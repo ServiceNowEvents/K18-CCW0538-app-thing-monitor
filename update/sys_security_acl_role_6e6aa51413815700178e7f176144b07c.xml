@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-20 17:51:12</sys_created_on>
+        <sys_id>6e6aa51413815700178e7f176144b07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_mbts_monitor_tanks.x_snc_mbts_monitor.tanks_user</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_security_acl display_value="x_snc_mbts_monitor_tanks">266aa51413815700178e7f176144b07a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6e6aa51413815700178e7f176144b07c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-20 17:51:12</sys_updated_on>
+        <sys_user_role display_value="x_snc_mbts_monitor.tanks_user" name="x_snc_mbts_monitor.tanks_user">226a611413815700178e7f176144b069</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Tanks" max_length="40" name="x_snc_mbts_monitor_tanks" type="collection">
+        <element default="0" label="altitude" max_length="40" name="altitude" type="float"/>
+        <element label="leak" max_length="40" name="leak" type="boolean"/>
+        <element default="0" label="Max volume" max_length="40" name="max_volume" type="float"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element default="0" label="surface" max_length="40" name="surface" type="float"/>
+    </element>
+</database>
