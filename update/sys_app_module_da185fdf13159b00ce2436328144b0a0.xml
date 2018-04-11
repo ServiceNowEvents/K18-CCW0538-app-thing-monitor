@@ -10,33 +10,33 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>SCRIPT</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Load Data</mobile_title>
+        <mobile_title>Properties</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>7</order>
+        <name>x_snc_mbts_monitor_properties</name>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
-        <query>new LoadHistoricalData().loadData();</query>
+        <query/>
         <report/>
-        <roles/>
+        <roles>x_snc_mbts_monitor.properties_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-22 17:16:48</sys_created_on>
+        <sys_created_on>2018-04-11 19:47:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b293fbf013099700178e7f176144b02e</sys_id>
+        <sys_id>da185fdf13159b00ce2436328144b0a0</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Load Data</sys_name>
+        <sys_name>Properties</sys_name>
         <sys_overrides/>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
-        <sys_update_name>sys_app_module_b293fbf013099700178e7f176144b02e</sys_update_name>
+        <sys_update_name>sys_app_module_da185fdf13159b00ce2436328144b0a0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-11 17:55:26</sys_updated_on>
+        <sys_updated_on>2018-04-11 19:50:54</sys_updated_on>
         <timeline_page/>
-        <title>Load Data</title>
+        <title>Properties</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

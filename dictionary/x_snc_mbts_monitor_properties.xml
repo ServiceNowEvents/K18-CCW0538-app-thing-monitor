@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Properties" max_length="40" name="x_snc_mbts_monitor_properties" type="collection">
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element default="False" label="value" max_length="40" name="value" type="boolean"/>
+    </element>
+</database>
