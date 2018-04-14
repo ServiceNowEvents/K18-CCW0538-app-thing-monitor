@@ -6,30 +6,30 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="u_imp_tmpl_x_snc_mbts_monitor_pumps">a5b2c01c13addb00ce2436328144b093</map>
+        <map display_value="u_imp_tmpl_x_snc_mbts_monitor_tanks">fd26c85013eddb00ce2436328144b0bb</map>
         <reference_value_field/>
-        <source_field>u_to</source_field>
+        <source_field>u_altitude</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
 	// Add your code here
 	return ""; // return the value to be put into the target field
 
 })(source);]]></source_script>
-        <source_table>u_imp_tmpl_x_snc_mbts_monitor_pumps</source_table>
+        <source_table>u_imp_tmpl_x_snc_mbts_monitor_tanks</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>cameron.trando@snc</sys_created_by>
-        <sys_created_on>2018-04-14 06:49:30</sys_created_on>
-        <sys_id>a5b2041c13addb00ce2436328144b0eb</sys_id>
+        <sys_created_on>2018-04-14 07:04:33</sys_created_on>
+        <sys_id>0a26c85013eddb00ce2436328144b0c5</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>u_to</sys_name>
+        <sys_name>u_altitude</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
-        <sys_update_name>sys_transform_entry_a5b2041c13addb00ce2436328144b0eb</sys_update_name>
+        <sys_update_name>sys_transform_entry_0a26c85013eddb00ce2436328144b0c5</sys_update_name>
         <sys_updated_by>cameron.trando@snc</sys_updated_by>
-        <sys_updated_on>2018-04-14 06:49:30</sys_updated_on>
-        <target_field>to</target_field>
-        <target_table>x_snc_mbts_monitor_pumps</target_table>
+        <sys_updated_on>2018-04-14 07:04:33</sys_updated_on>
+        <target_field>altitude</target_field>
+        <target_table>x_snc_mbts_monitor_tanks</target_table>
         <use_source_script>false</use_source_script>
     </sys_transform_entry>
 </record_update>

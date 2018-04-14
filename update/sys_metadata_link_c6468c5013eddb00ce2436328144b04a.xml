@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a3364c5013eddb00ce2436328144b09a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_mbts_monitor_pumps">
+    <x_snc_mbts_monitor_pumps action="INSERT_OR_UPDATE">
+        <broken>false</broken>
+        <clogged>false</clogged>
+        <from display_value="Tank1-2">c626c85013eddb00ce2436328144b0d2</from>
+        <model display_value="model1">1916885013eddb00ce2436328144b081</model>
+        <name>Pump1-2to2-2</name>
+        <state/>
+        <sys_created_by>cameron.trando@snc</sys_created_by>
+        <sys_created_on>2018-04-14 07:04:56</sys_created_on>
+        <sys_id>a3364c5013eddb00ce2436328144b09a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cameron.trando@snc</sys_updated_by>
+        <sys_updated_on>2018-04-14 07:04:56</sys_updated_on>
+        <to display_value="Tank2-2">c226c85013eddb00ce2436328144b0d3</to>
+    </x_snc_mbts_monitor_pumps>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>cameron.trando@snc</sys_created_by>
+        <sys_created_on>2018-04-14 07:05:07</sys_created_on>
+        <sys_id>c6468c5013eddb00ce2436328144b04a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pump1-2to2-2</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_metadata_link_c6468c5013eddb00ce2436328144b04a</sys_update_name>
+        <sys_updated_by>cameron.trando@snc</sys_updated_by>
+        <sys_updated_on>2018-04-14 07:05:07</sys_updated_on>
+        <tablename>x_snc_mbts_monitor_pumps</tablename>
+    </sys_metadata_link>
+</record_update>
