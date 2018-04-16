@@ -7,7 +7,7 @@
 <record_update table="x_snc_mbts_monitor_pumps">
     <x_snc_mbts_monitor_pumps action="INSERT_OR_UPDATE">
         <from display_value="Tank1-1">bb08090ddb2113009f67b6d1ba961960</from>
-        <model display_value="model1">08b7810ddb2113009f67b6d1ba961995</model>
+        <model/>
         <name>Pump1-1to2-1</name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-16 19:48:18</sys_created_on>
@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-16 20:53:53</sys_created_on>
         <sys_id>3d2799c113a55300178e7f176144b0df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Pump1-1to2-1</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
         <sys_update_name>sys_metadata_link_3d2799c113a55300178e7f176144b0df</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-16 20:53:53</sys_updated_on>
+        <sys_updated_by>cameron.trando@snc</sys_updated_by>
+        <sys_updated_on>2018-04-16 21:31:59</sys_updated_on>
         <tablename>x_snc_mbts_monitor_pumps</tablename>
     </sys_metadata_link>
 </record_update>
