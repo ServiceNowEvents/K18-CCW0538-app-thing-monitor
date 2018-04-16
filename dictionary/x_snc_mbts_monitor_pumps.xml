@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Pumps" max_length="40" name="x_snc_mbts_monitor_pumps" type="collection">
-        <element label="broken" max_length="40" name="broken" type="boolean"/>
-        <element label="clogged" max_length="40" name="clogged" type="boolean"/>
         <element label="from" max_length="32" name="from" reference="x_snc_mbts_monitor_tanks" type="reference"/>
         <element label="model" max_length="32" name="model" reference="x_snc_mbts_monitor_pump_model" type="reference"/>
         <element label="name" max_length="40" name="name" type="string"/>
-        <element choice="1" label="state" max_length="40" name="state" type="choice">
-            <choice>
-                <element label="on" sequence="0" value="0"/>
-                <element label="off" sequence="1" value="1"/>
-                <element label="bypass" sequence="2" value="2"/>
-            </choice>
-        </element>
         <element label="to" max_length="32" name="to" reference="x_snc_mbts_monitor_tanks" type="reference"/>
         <index name="index">
             <element name="from"/>
