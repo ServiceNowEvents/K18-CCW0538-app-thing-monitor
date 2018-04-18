@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Tanks" max_length="40" name="x_snc_mbts_monitor_tanks" type="collection">
         <element default="0" label="Max volume" max_length="40" name="max_volume" type="float"/>
         <element label="name" max_length="40" name="name" type="string"/>

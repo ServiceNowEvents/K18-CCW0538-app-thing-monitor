@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_flow" table="u_imp_tmpl_x_snc_mbts_monitor_pumps">
         <active>true</active>
         <array>false</array>
@@ -49,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>cameron.trando@snc</sys_created_by>
         <sys_created_on>2018-04-14 06:49:17</sys_created_on>
-        <sys_id>640f361513a19300ce2436328144b0dc</sys_id>
+        <sys_id>f36c131113659300ce2436328144b0bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>flow</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
@@ -57,7 +56,7 @@
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
         <sys_update_name>sys_dictionary_u_imp_tmpl_x_snc_mbts_monitor_pumps_u_flow</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-04-17 23:06:12</sys_updated_on>
+        <sys_updated_on>2018-04-18 01:14:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
