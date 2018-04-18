@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="Send Email">716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Empty Tank">4e5b6fad13a11300178e7f176144b00b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 20:58:20</sys_created_on>
+        <sys_id>665b6fad13a11300178e7f176144b0a6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_hub_action_instance_665b6fad13a11300178e7f176144b0a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:58:20</sys_updated_on>
+        <ui_id>bc23d863-3642-4b0e-976b-a1cc5fa349cf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=665b6fad13a11300178e7f176144b0a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>665b6fad13a11300178e7f176144b0a6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 20:58:20</sys_created_on>
+        <sys_id>265b6fad13a11300178e7f176144b0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:58:20</sys_updated_on>
+        <value>cameron.trando@servicenow.com</value>
+        <variable display_value="">ce6281160b100300d97d8bf637673ac9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>665b6fad13a11300178e7f176144b0a6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 20:58:20</sys_created_on>
+        <sys_id>aa5b6fad13a11300178e7f176144b0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:58:20</sys_updated_on>
+        <value>Dangerously Low Tank Level!</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>665b6fad13a11300178e7f176144b0a6</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 20:58:20</sys_created_on>
+        <sys_id>e65b6fad13a11300178e7f176144b0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:58:20</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=665b6fad13a11300178e7f176144b0a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>665b6fad13a11300178e7f176144b0a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 20:58:20</sys_created_on>
+        <sys_id>a25b6fad13a11300178e7f176144b0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:58:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="ccd65f21-bd9a-469c-a946-33d0f58b4627" data-pillvalue="{{MetricBase_1.current.name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="ccd65f21-bd9a-469c-a946-33d0f58b4627" data-pillvalue="{{MetricBase_1.current.name}}"&gt;Trigger➛Tanks Record➛Name&lt;/span&gt;&lt;/span&gt;I am spamming myself.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>665b6fad13a11300178e7f176144b0a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 20:58:20</sys_created_on>
+        <sys_id>ee5b6fad13a11300178e7f176144b0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:58:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>665b6fad13a11300178e7f176144b0a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 20:58:20</sys_created_on>
+        <sys_id>2e5b6fad13a11300178e7f176144b0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:58:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
