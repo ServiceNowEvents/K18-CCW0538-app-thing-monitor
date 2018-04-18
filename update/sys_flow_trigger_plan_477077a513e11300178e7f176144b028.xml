@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>72bfab6513e11300178e7f176144b0d1</plan_id>
+        <snapshot>9a7037a513e11300178e7f176144b0aa</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-18 21:20:46</sys_created_on>
+        <sys_id>477077a513e11300178e7f176144b028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cb7077a513e11300178e7f176144b025</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_477077a513e11300178e7f176144b028</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-18 21:20:46</sys_updated_on>
+        <trigger display_value="">cb7077a513e11300178e7f176144b025</trigger>
+    </sys_flow_trigger_plan>
+</record_update>
