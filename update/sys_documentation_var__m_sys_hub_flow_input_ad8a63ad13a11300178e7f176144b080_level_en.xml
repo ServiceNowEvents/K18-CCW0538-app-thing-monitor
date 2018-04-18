@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="level" label="Level" language="en" table="var__m_sys_hub_flow_input_ad8a63ad13a11300178e7f176144b080">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>level</element>
+            <help/>
+            <hint/>
+            <label>Level</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_ad8a63ad13a11300178e7f176144b080</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-18 20:58:16</sys_created_on>
+            <sys_id>e55b2fad13a11300178e7f176144b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Level</sys_name>
+            <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ad8a63ad13a11300178e7f176144b080_level_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-18 20:58:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
