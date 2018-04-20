@@ -12,7 +12,7 @@
         <sys_id>d528890ddb2113009f67b6d1ba961975</sys_id>
         <sys_mod_count>216</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-20 18:09:59</sys_updated_on>
+        <sys_updated_on>2018-04-20 18:19:47</sys_updated_on>
         <to display_value="Tank3-1">b308090ddb2113009f67b6d1ba961962</to>
     </x_snc_mbts_monitor_pumps>
 </record_update>
@@ -28,7 +28,7 @@
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
         <sys_update_name>sys_metadata_link_2694e90d13e55300178e7f176144b085</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-20 18:10:17</sys_updated_on>
+        <sys_updated_on>2018-04-20 18:19:58</sys_updated_on>
         <tablename>x_snc_mbts_monitor_pumps</tablename>
     </sys_metadata_link>
 </record_update>
