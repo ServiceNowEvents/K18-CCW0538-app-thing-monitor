@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="2b72001c13addb00ce2436328144b0ea" sys_domain="global" table="u_imp_tmpl_x_snc_mbts_monitor_pump_model" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_name</element>

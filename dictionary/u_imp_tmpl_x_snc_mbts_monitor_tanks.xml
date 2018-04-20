@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="Imp Tmpl X Snc Mbts Monitor Tanks" max_length="40" name="u_imp_tmpl_x_snc_mbts_monitor_tanks" type="collection">
         <element attributes="import_attribute_name=Altitude,edge_encryption_enabled=true" label="Altitude" max_length="40" name="u_altitude" type="string"/>
         <element attributes="import_attribute_name=Leak,edge_encryption_enabled=true" label="Leak" max_length="40" name="u_leak" type="string"/>

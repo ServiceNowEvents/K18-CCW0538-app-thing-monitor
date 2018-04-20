@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Pumps" max_length="40" name="x_snc_mbts_monitor_pumps" type="collection">
         <element label="from" max_length="32" name="from" reference="x_snc_mbts_monitor_tanks" type="reference"/>
         <element label="model" max_length="32" name="model" reference="x_snc_mbts_monitor_pump_model" type="reference"/>
