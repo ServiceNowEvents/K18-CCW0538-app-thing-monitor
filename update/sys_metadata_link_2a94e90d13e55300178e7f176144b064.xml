@@ -2,6 +2,7 @@
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
         <documentkey>9528890ddb2113009f67b6d1ba96197d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_mbts_monitor_pumps">
     <x_snc_mbts_monitor_pumps action="INSERT_OR_UPDATE">
         <from display_value="BigTank1">3b08090ddb2113009f67b6d1ba96195e</from>
         <model display_value="ReactiveShark">c8b7810ddb2113009f67b6d1ba961996</model>
