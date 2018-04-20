@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_mbts_monitor.MetricLoader</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MetricLoader</name>
+        <script><![CDATA[var MetricLoader = Class.create();
+MetricLoader.prototype = {
+    initialize: function() {
+    },
+
+    loadMetricsFromJSON: function(metricJSON) {
+        gs.info("Beginning loading metrics from JSON");
+        this.loadMetricsFromObject(JSON.parse(metricJSON));
+        gs.info("Finishing loading metrics from JSON");
+    },
+
+    loadMetricsFromObject: function(metricsArr) {
+        gs.info("Beginning loading metrics from object");
+        metricsArr = metricsArr["result"];
+        for(var i = 0; i < metricsArr.length; i++) {
+            var metric = metricsArr[i];
+            var sys_id = metric["seriesRef"]["subject"];
+            var table = metric["seriesRef"]["table"];
+            var metricName = metric["seriesRef"]["metric"];
+            var time = new GlideDateTime(metric["values"]["timestamp"]);
+            var value = metric["values"]["value"];
+
+            var tableRecord = new GlideRecord(table);
+            tableRecord.initialize();
+            tableRecord.get(sys_id);
+
+            var dataBuilder = new sn_clotho.DataBuilder(tableRecord, metricName.toString());
+            dataBuilder.add(time, parseFloat(value));
+			new sn_clotho.Client().put(dataBuilder);
+        }
+        gs.info("Finishing loading metrics from object");
+    },
+
+    type: 'MetricLoader'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-20 20:00:32</sys_created_on>
+        <sys_id>8641b5d213695300ce2436328144b088</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>MetricLoader</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_script_include_8641b5d213695300ce2436328144b088</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-20 20:24:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
