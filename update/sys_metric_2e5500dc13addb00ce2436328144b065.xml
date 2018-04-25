@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metric">
+    <sys_metric action="INSERT_OR_UPDATE">
+        <auto_promote>false</auto_promote>
+        <dv_aggregator>last</dv_aggregator>
+        <dv_resample_hr>1</dv_resample_hr>
+        <element>volume</element>
+        <label>Volume</label>
+        <name>x_snc_mbts_monitor_tanks</name>
+        <retention_policy display_value="Dense">c742acc05b33220066c1290291f91a6d</retention_policy>
+        <subject_field>sys_id</subject_field>
+        <sys_class_name>sys_metric</sys_class_name>
+        <sys_created_by>cameron.trando@snc</sys_created_by>
+        <sys_created_on>2018-04-14 07:01:45</sys_created_on>
+        <sys_id>2e5500dc13addb00ce2436328144b065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Volume</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_metric_2e5500dc13addb00ce2436328144b065</sys_update_name>
+        <sys_updated_by>cameron.trando@snc</sys_updated_by>
+        <sys_updated_on>2018-04-14 07:01:45</sys_updated_on>
+    </sys_metric>
+</record_update>
