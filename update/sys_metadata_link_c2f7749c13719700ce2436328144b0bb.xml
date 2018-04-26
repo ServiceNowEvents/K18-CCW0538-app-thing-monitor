@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9e329333c33220001875addbdfba8f56</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint>Create and manage system applications</hint>
+        <name>apps</name>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2012-06-30 16:10:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e329333c33220001875addbdfba8f56</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>System Applications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="System Applications Core" source="com.snc.apps">a25dcdc813011700178e7f176144b087</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_app_application_9e329333c33220001875addbdfba8f56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-26 20:25:23</sys_updated_on>
+        <title>System Applications</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>mansi.takaffoli@snc</sys_created_by>
+        <sys_created_on>2018-04-26 20:57:53</sys_created_on>
+        <sys_id>c2f7749c13719700ce2436328144b0bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>System Applications</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_metadata_link_c2f7749c13719700ce2436328144b0bb</sys_update_name>
+        <sys_updated_by>mansi.takaffoli@snc</sys_updated_by>
+        <sys_updated_on>2018-04-26 20:57:53</sys_updated_on>
+        <tablename>sys_app_application</tablename>
+    </sys_metadata_link>
+</record_update>

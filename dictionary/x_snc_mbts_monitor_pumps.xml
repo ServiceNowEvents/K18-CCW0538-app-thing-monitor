@@ -2,7 +2,7 @@
     <element label="Pumps" max_length="40" name="x_snc_mbts_monitor_pumps" type="collection">
         <element label="from" max_length="32" name="from" reference="x_snc_mbts_monitor_tanks" type="reference"/>
         <element label="model" max_length="32" name="model" reference="x_snc_mbts_monitor_pump_model" type="reference"/>
-        <element label="name" max_length="40" name="name" type="string"/>
+        <element display="true" label="name" max_length="40" name="name" type="string"/>
         <element label="to" max_length="32" name="to" reference="x_snc_mbts_monitor_tanks" type="reference"/>
         <index name="index">
             <element name="from"/>
