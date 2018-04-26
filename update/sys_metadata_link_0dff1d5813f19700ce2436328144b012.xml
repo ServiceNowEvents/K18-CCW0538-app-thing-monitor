@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ad62434d474231004695d7527c9a7151</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint>Integration - Export Sets</hint>
+        <name/>
+        <order/>
+        <roles>export_set_admin,export_set_scheduler</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-02-04 00:07:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad62434d474231004695d7527c9a7151</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>System Export Sets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Basic Export Set Functionality" source="com.glide.system_export_set">ef27ddcc13811700178e7f176144b05f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_app_application_ad62434d474231004695d7527c9a7151</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-26 19:54:44</sys_updated_on>
+        <title>System Export Sets</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-26 23:52:35</sys_created_on>
+        <sys_id>0dff1d5813f19700ce2436328144b012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>System Export Sets</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_metadata_link_0dff1d5813f19700ce2436328144b012</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-26 23:52:35</sys_updated_on>
+        <tablename>sys_app_application</tablename>
+    </sys_metadata_link>
+</record_update>

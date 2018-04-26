@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>bda0f193c0a8006401aa5f9b522837be</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>asset_contracts</name>
+        <order>1000</order>
+        <roles>asset,contract_manager</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2005-08-16 04:51:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bda0f193c0a8006401aa5f9b522837be</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Contract</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Contract Management" source="com.snc.contract_management">7fc8914413c11700178e7f176144b0a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_app_application_bda0f193c0a8006401aa5f9b522837be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-26 19:55:26</sys_updated_on>
+        <title>Contract</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-26 23:52:35</sys_created_on>
+        <sys_id>c1ff1d5813f19700ce2436328144b018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contract</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_metadata_link_c1ff1d5813f19700ce2436328144b018</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-26 23:52:35</sys_updated_on>
+        <tablename>sys_app_application</tablename>
+    </sys_metadata_link>
+</record_update>

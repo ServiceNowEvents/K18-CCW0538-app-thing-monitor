@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5a7ac703c3010100bac1addbdfba8ff3</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>team_development</name>
+        <order/>
+        <roles>admin,teamdev_code_reviewer,teamdev_read,teamdev_configure_instance</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2013-05-05 00:13:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a7ac703c3010100bac1addbdfba8ff3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Team Development</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Team Development" source="com.snc.apps_hub">e26d450c13011700178e7f176144b02f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_app_application_5a7ac703c3010100bac1addbdfba8ff3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-26 19:55:07</sys_updated_on>
+        <title>Team Development</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-26 23:52:32</sys_created_on>
+        <sys_id>d8ffd95813f19700ce2436328144b09d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team Development</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_metadata_link_d8ffd95813f19700ce2436328144b09d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-26 23:52:32</sys_updated_on>
+        <tablename>sys_app_application</tablename>
+    </sys_metadata_link>
+</record_update>

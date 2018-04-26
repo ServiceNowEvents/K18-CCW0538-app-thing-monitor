@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>12505a00c3022100f4a13b251eba8f1a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint>Administer subscriptions and monitor usage</hint>
+        <name/>
+        <order/>
+        <roles>usage_admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-07-16 21:44:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12505a00c3022100f4a13b251eba8f1a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Subscription Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow Subscription Management" source="com.snc.usage_admin.snc">0c991dc413c11700178e7f176144b0cd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sys_app_application_12505a00c3022100f4a13b251eba8f1a</sys_update_name>
+        <sys_updated_by>mansi.takaffoli@snc</sys_updated_by>
+        <sys_updated_on>2018-04-26 20:05:28</sys_updated_on>
+        <title>Subscription Management</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-26 23:52:29</sys_created_on>
+        <sys_id>e7efd95813f19700ce2436328144b00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Subscription Management</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_metadata_link_e7efd95813f19700ce2436328144b00b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-26 23:52:29</sys_updated_on>
+        <tablename>sys_app_application</tablename>
+    </sys_metadata_link>
+</record_update>
