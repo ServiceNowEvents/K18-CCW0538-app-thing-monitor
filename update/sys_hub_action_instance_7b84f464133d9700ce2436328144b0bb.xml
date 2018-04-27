@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="Create Task">2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Empty Tank">ad8a63ad13a11300178e7f176144b080</flow>
+        <order>1.1</order>
+        <parent_ui_id>085e7fc2-89a5-48f0-b838-3bc18e57c6ed</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 15:21:28</sys_created_on>
+        <sys_id>7b84f464133d9700ce2436328144b0bb</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_hub_action_instance_7b84f464133d9700ce2436328144b0bb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-04-27 17:19:02</sys_updated_on>
+        <ui_id>8ffdcdbb-d396-4803-9e3f-3a06eab58636</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7b84f464133d9700ce2436328144b0bb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7b84f464133d9700ce2436328144b0bb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 15:21:29</sys_created_on>
+        <sys_id>3b84f464133d9700ce2436328144b0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 15:21:29</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7b84f464133d9700ce2436328144b0bb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 15:22:32</sys_created_on>
+        <sys_id>5bc4b864133d9700ce2436328144b090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 15:22:32</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7b84f464133d9700ce2436328144b0bb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>7b84f464133d9700ce2436328144b0bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 15:21:29</sys_created_on>
+        <sys_id>b784f464133d9700ce2436328144b0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 15:21:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>short_description=The level of water for {{MetricBase_1.current.name}} is very low.^impact=3</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>7b84f464133d9700ce2436328144b0bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 15:22:32</sys_created_on>
+        <sys_id>d7c4b864133d9700ce2436328144b090</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>short_description=The level of water for {{MetricBase_1.current.name}} is very low.^impact=3^category=hardware</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>7b84f464133d9700ce2436328144b0bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 15:22:32</sys_created_on>
+        <sys_id>17c4b864133d9700ce2436328144b090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 15:22:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>7b84f464133d9700ce2436328144b0bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 15:21:29</sys_created_on>
+        <sys_id>7f84f464133d9700ce2436328144b0c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 15:21:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

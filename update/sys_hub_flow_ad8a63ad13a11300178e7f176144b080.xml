@@ -8,8 +8,8 @@
         <copied_from_name/>
         <description/>
         <internal_name>empty_tank</internal_name>
-        <label_cache>[]</label_cache>
-        <latest_snapshot>4e5b6fad13a11300178e7f176144b00b</latest_snapshot>
+        <label_cache>[{"name":"MetricBase_1.current.name","label":"Trigger➛Tanks Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_mbts_monitor_tanks","column_name":"name"},{"name":"MetricBase_1.metric","label":"Trigger➛MetricBase Trigger Definition Record","reference":"sys_metric_trigger_definition","reference_display":"MetricBase Trigger Definition","type":"reference","base_type":"reference"},{"name":"MetricBase_1.level","label":"Trigger➛Level","type":"integer","base_type":"integer"}]</label_cache>
+        <latest_snapshot>b87f096c137d9700ce2436328144b0b5</latest_snapshot>
         <master_snapshot>4e5b6fad13a11300178e7f176144b00b</master_snapshot>
         <name>Empty Tank</name>
         <outputs/>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-18 20:54:44</sys_created_on>
         <sys_id>ad8a63ad13a11300178e7f176144b080</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Empty Tank</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
         <sys_update_name>sys_hub_flow_ad8a63ad13a11300178e7f176144b080</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-18 20:58:22</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-04-27 17:19:00</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=ad8a63ad13a11300178e7f176144b080"/>
