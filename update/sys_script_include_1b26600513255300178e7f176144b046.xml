@@ -24,11 +24,12 @@ LoadHistoricalData.prototype = {
             request.setRequestBody(JSON.stringify(body));
 
             var response = request.execute();
-            gs.info("The response code is " + response.getStatusCode());
-            gs.info("The response error message is " + response.getErrorMessage());
+            //gs.info("The response code is " + response.getStatusCode());
+            //gs.info("The response error message is " + response.getErrorMessage());
 		
             new MetricLoader().loadMetricsFromJSON(response.getBody());
         }
+		gs.info("7 days of historical data loaded");
     },
     type: 'LoadHistoricalData'
 };]]></script>
@@ -36,13 +37,13 @@ LoadHistoricalData.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-16 17:20:18</sys_created_on>
         <sys_id>1b26600513255300178e7f176144b046</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>LoadHistoricalData</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
         <sys_update_name>sys_script_include_1b26600513255300178e7f176144b046</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-20 20:46:24</sys_updated_on>
+        <sys_updated_on>2018-04-27 00:15:33</sys_updated_on>
     </sys_script_include>
 </record_update>
