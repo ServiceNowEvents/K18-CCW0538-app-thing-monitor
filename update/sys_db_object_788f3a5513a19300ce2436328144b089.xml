@@ -10,7 +10,7 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Properties</label>
+        <label>Mbts Monitor Properties</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_snc_mbts_monitor_properties</name>
         <number_ref/>
