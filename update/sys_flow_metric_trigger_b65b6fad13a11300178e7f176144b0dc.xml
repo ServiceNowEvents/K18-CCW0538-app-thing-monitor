@@ -3,7 +3,7 @@
         <active>true</active>
         <condition table="x_snc_mbts_monitor_tanks">nameNOT LIKEBigTank<item endquery="false" field="name" goto="false" newquery="false" operator="NOT LIKE" or="false" value="BigTank"/>
         </condition>
-        <encoded_query>max_volume&lt;=1000</encoded_query>
+        <encoded_query>nameNOT LIKEBigTank</encoded_query>
         <metric_name>x_snc_mbts_monitor_tanks|volume</metric_name>
         <metric_trigger display_value="Low Water Level ">e869a72d13a11300178e7f176144b0bc</metric_trigger>
         <moderator/>
