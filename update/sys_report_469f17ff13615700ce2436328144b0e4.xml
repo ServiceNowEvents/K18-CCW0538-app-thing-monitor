@@ -27,7 +27,7 @@
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
-        <custom_config>{"query_condition":"name=Tank1-1","transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"},"metric":"volume"}],"table":"x_snc_mbts_monitor_tanks"}</custom_config>
+        <custom_config>{"query_condition":"name=Tank1-1","transforms":[{"transform":{"input":{"transform":"Reference","name":"chart-subjects"},"transform":"Sum"},"metric":"volume"}],"group_by":"","group_by_name":"-- None --","table":"x_snc_mbts_monitor_tanks"}</custom_config>
         <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
@@ -95,14 +95,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-25 19:53:18</sys_created_on>
         <sys_id>469f17ff13615700ce2436328144b0e4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Tank Leaks</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
         <sys_update_name>sys_report_469f17ff13615700ce2436328144b0e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-25 19:59:17</sys_updated_on>
+        <sys_updated_on>2018-04-27 21:57:35</sys_updated_on>
         <table>x_snc_mbts_monitor_tanks</table>
         <title>Tank Leaks</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

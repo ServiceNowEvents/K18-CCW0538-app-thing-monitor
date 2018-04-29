@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metric_trigger_level_band">
+    <sys_metric_trigger_level_band action="INSERT_OR_UPDATE">
+        <band_function/>
+        <band_value_band/>
+        <function>more</function>
+        <level>1</level>
+        <sys_class_name>sys_metric_trigger_level_band</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-29 18:35:13</sys_created_on>
+        <sys_id>a9f3330113bd1b00ce2436328144b001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_metric_trigger_level_band_a9f3330113bd1b00ce2436328144b001</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-29 18:35:13</sys_updated_on>
+        <tolerance_band>0</tolerance_band>
+        <trigger display_value="Hot Pump">b7d3bfcd137d1b00ce2436328144b073</trigger>
+        <value_band>62</value_band>
+    </sys_metric_trigger_level_band>
+</record_update>

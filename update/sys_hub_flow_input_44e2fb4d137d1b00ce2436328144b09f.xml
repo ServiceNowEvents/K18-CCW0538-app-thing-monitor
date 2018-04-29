@@ -20,34 +20,34 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>metric</element>
+        <element>current</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Reference">reference</internal_type>
-        <label>MetricBase Trigger</label>
-        <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <model display_value="Empty Tank">ad8a63ad13a11300178e7f176144b080</model>
-        <model_id>ad8a63ad13a11300178e7f176144b080</model_id>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Current</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Clogged Pump">e36051ac137d9700ce2436328144b091</model>
+        <model_id>e36051ac137d9700ce2436328144b091</model_id>
         <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_ad8a63ad13a11300178e7f176144b080</name>
+        <name>var__m_sys_hub_flow_input_e36051ac137d9700ce2436328144b091</name>
         <next_element/>
-        <order>100</order>
+        <order>103</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_metric_trigger_definition">sys_metric_trigger_definition</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -59,16 +59,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-18 20:58:15</sys_created_on>
-        <sys_id>155ba7ad13a11300178e7f176144b040</sys_id>
-        <sys_mod_count>65</sys_mod_count>
-        <sys_name>var__m_sys_hub_flow_input_ad8a63ad13a11300178e7f176144b080</sys_name>
+        <sys_created_on>2018-04-29 18:29:56</sys_created_on>
+        <sys_id>44e2fb4d137d1b00ce2436328144b09f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>var__m_sys_hub_flow_input_e36051ac137d9700ce2436328144b091</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
-        <sys_update_name>sys_hub_flow_input_155ba7ad13a11300178e7f176144b040</sys_update_name>
+        <sys_update_name>sys_hub_flow_input_44e2fb4d137d1b00ce2436328144b09f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-29 18:36:16</sys_updated_on>
+        <sys_updated_on>2018-04-29 18:34:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
