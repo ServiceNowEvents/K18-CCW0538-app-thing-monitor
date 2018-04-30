@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_snc_mbts_monitor_properties</name>
+        <name>x_snc_mbts_monitor_pump_model</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>system</sys_created_by>
-        <sys_created_on>2018-04-30 15:14:31</sys_created_on>
-        <sys_id>4fbfc02913b95b00ce2436328144b0b7</sys_id>
+        <sys_created_on>2018-04-30 15:14:29</sys_created_on>
+        <sys_id>bf55f16113719b00ce2436328144b0c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_mbts_monitor_properties</sys_name>
+        <sys_name>x_snc_mbts_monitor_pump_model</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
-        <sys_update_name>ua_table_licensing_config_4fbfc02913b95b00ce2436328144b0b7</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_bf55f16113719b00ce2436328144b0c3</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-04-30 15:14:31</sys_updated_on>
+        <sys_updated_on>2018-04-30 15:14:29</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
