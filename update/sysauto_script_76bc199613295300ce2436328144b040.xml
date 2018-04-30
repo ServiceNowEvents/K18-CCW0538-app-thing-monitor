@@ -16,7 +16,7 @@
 request.setEndpoint("https://clothosimulator.service-now.com/api/x_snc_mbts/thing_simulator/get_current_data");
 
 request.setHttpMethod("GET");
-request.setBasicAuth('admin', 'cl0th0K18');
+request.setBasicAuth('clotho', 'cl0th0K18');
 
 var response = request.execute();
 //gs.info("The response code is " + response.getStatusCode());
@@ -29,14 +29,14 @@ new MetricLoader().loadMetricsFromJSON(response.getBody());]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-20 18:31:03</sys_created_on>
         <sys_id>76bc199613295300ce2436328144b040</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>MinutelyMetricPuller</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
         <sys_update_name>sysauto_script_76bc199613295300ce2436328144b040</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-27 00:14:32</sys_updated_on>
+        <sys_updated_on>2018-04-30 22:27:43</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
