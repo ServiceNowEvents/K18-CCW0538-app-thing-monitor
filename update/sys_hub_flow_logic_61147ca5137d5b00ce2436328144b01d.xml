@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">3384f464133d9700ce2436328144b0c5</block>
+        <block display_value="">4f34437b13215700ce2436328144b04a</block>
         <comment/>
         <connected_to/>
         <display_text/>
@@ -13,47 +13,47 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-27 15:22:36</sys_created_on>
-        <sys_id>14d4f864133d9700ce2436328144b01b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_created_on>2018-04-30 17:53:20</sys_created_on>
+        <sys_id>61147ca5137d5b00ce2436328144b01d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
-        <sys_update_name>sys_hub_flow_logic_14d4f864133d9700ce2436328144b01b</sys_update_name>
+        <sys_update_name>sys_hub_flow_logic_61147ca5137d5b00ce2436328144b01d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-27 17:18:48</sys_updated_on>
-        <ui_id>085e7fc2-89a5-48f0-b838-3bc18e57c6ed</ui_id>
+        <sys_updated_on>2018-04-30 17:53:21</sys_updated_on>
+        <ui_id>029ea218-b103-436b-9d11-f276fc4aeade</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=14d4f864133d9700ce2436328144b01b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=61147ca5137d5b00ce2436328144b01d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
-        <document_key>14d4f864133d9700ce2436328144b01b</document_key>
-        <order>10</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-27 15:22:36</sys_created_on>
-        <sys_id>9cd4f864133d9700ce2436328144b01e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-27 15:22:36</sys_updated_on>
-        <value>Low Level</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>14d4f864133d9700ce2436328144b01b</document_key>
+        <document_key>61147ca5137d5b00ce2436328144b01d</document_key>
         <order>20</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-27 15:22:36</sys_created_on>
-        <sys_id>d8d4f864133d9700ce2436328144b01e</sys_id>
+        <sys_created_on>2018-04-30 17:53:20</sys_created_on>
+        <sys_id>29147ca5137d5b00ce2436328144b020</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-27 15:22:36</sys_updated_on>
+        <sys_updated_on>2018-04-30 17:53:20</sys_updated_on>
         <value>{{MetricBase_1.level}}=1</value>
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>61147ca5137d5b00ce2436328144b01d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-30 17:53:20</sys_created_on>
+        <sys_id>e9147ca5137d5b00ce2436328144b020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-30 17:53:20</sys_updated_on>
+        <value>Level is low</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
 </record_update>
