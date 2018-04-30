@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-17 23:08:50</sys_created_on>
-        <sys_id>4c231eb8137dd700ce2436328144b0ca</sys_id>
+        <sys_id>df1fe92513319b00ce2436328144b04a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_mbts_monitor_properties</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
-        <sys_update_name>ua_table_licensing_config_4c231eb8137dd700ce2436328144b0ca</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_df1fe92513319b00ce2436328144b04a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-04-17 23:08:50</sys_updated_on>
     </ua_table_licensing_config>
