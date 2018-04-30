@@ -10,7 +10,7 @@ if(registered == true) {
 	gs.info("We have already registered!");
 } 
 registered == false;]]></condition>
-        <conditional>true</conditional>
+        <conditional>false</conditional>
         <name>RegisterInstance</name>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
@@ -19,7 +19,7 @@ registered == false;]]></condition>
         <run_period/>
         <run_start>2018-04-16 17:20:27</run_start>
         <run_time>1970-01-01 08:00:00</run_time>
-        <run_type>periodically</run_type>
+        <run_type>on_demand</run_type>
         <script><![CDATA[var request = new sn_ws.RESTMessageV2();
 request.setEndpoint("https://clothosimulator.service-now.com/api/x_snc_mbts/thing_simulator/register");
 
@@ -28,7 +28,7 @@ var body = {
 };
 
 request.setHttpMethod("POST");
-request.setBasicAuth('admin', 'cl0th0K18');
+request.setBasicAuth('clotho', 'cl0th0K18');
 request.setRequestBody(JSON.stringify(body));
 
 var response = request.execute();
@@ -49,14 +49,14 @@ if(response.getStatusCode() == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-16 17:20:51</sys_created_on>
         <sys_id>9746ac0513255300178e7f176144b0e0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>RegisterInstance</sys_name>
         <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
         <sys_update_name>sysauto_script_9746ac0513255300178e7f176144b0e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-17 23:24:29</sys_updated_on>
+        <sys_updated_on>2018-04-30 22:32:02</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
